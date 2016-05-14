@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
                                            .map { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_dependency 'tilt', '~> 1.4.1'
+  s.add_dependency 'tilt'
   s.add_dependency 'pdfkit', '~> 0.5.4'
 
   s.add_development_dependency 'therubyracer'
